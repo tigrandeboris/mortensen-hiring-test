@@ -5,13 +5,13 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        black: "#000",
-        white: "#fff",
+        black: "#2E2E2E",
+        white: "#FFFFFF",
 
         gray: {
-          100: "#fff",
-          200: "#fff",
-          300: "#fff",
+          100: "#F6F6F6",
+          200: "#888888",
+          300: "#3C3C3C",
         },
       },
       container: {
@@ -27,9 +27,9 @@ module.exports = {
       },
       fontSize: {
         base: ["16px", "24px"],
-        lg: ["18px", "24px"],
-        xl: ["20px", "26px"],
-        "2xl": ["22px", { letterSpacing: "-0.4px", lineHeight: 1.25 }],
+        lg: ["20px", "30px"],
+        xl: ["32px", "38px"],
+        "2xl": ["52px", "58px"],
       },
     },
   },
